@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
 import axios from 'axios';
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
-  const sendRequest = async() => {
+  const sendRequest = async () => {
     const response = await axios.get('http://localhost:8080');
     console.log(response);
     console.log(response.data);
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     sendRequest();
   });
 
@@ -23,7 +22,7 @@ function App() {
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src="/react.svg" className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
