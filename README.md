@@ -3,3 +3,7 @@
 
 - 다운로드 후 Node-Vite-Main, front 폴더에서 yarn을 설치하신 후 실행하셔야합니다.
 - 다운로드 후 Node-Vite-Main에서 파일을 실행하실 때 front 폴더에서 `yarn build`를 한 후 `link` 경로도 수정한 다음에 실행하셔야 제대로 작동합니다.
+
+## :tada: koyeb을 이용한 배포.
+- <a href="https://app.koyeb.com/">Koyeb</a>을 이용하여 node.js 서버를 배포하였습니다.
+- 배포 링크는 https://node-vite-light9639.koyeb.app/ 입니다.
